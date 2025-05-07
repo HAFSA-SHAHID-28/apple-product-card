@@ -7,11 +7,6 @@
 
 ---
 
-## 📸 Preview
-
-![Preview of Apple Product Card](./assets/preview.jpg)
-
----
 
 ## ✨ Features
 
