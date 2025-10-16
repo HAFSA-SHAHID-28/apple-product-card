@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APPLE PRODUCT CARD</title>
 
+
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -14,6 +15,21 @@
     <!-- //custom css// -->
     <link rel="stylesheet" href="./style.css">
 
+    <!-- Disable source view by right click -->
+<script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
+<style>
+    ::selection { background: #fff; color: #000; }
+    body::after {
+        content: "© 2025 Hafsa Shahid";
+        position: fixed;
+        bottom: 5px;
+        right: 10px;
+        font-size: 10px;
+        opacity: 0.6;
+    }
+</style>
 
 </head>
 <body>
